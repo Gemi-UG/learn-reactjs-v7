@@ -1,0 +1,16 @@
+    .todo-list {
+        & > li {
+            cursor: pointer;
+            padding: 10px 10px;
+
+        }
+
+        & >li.completed {
+            border: 2px solid green;
+            border-radius: 5px;
+            width: 400px;
+            margin: 10px;
+            background-color: rgba($color: green, $alpha: 0.5);
+            
+        }
+    }

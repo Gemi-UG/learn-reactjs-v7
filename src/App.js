@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TodoFeature from './features/Todo/components/pages';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Trader Gemi-UG
-        </p>
-      
-      </header>
+      <h2>Những yếu tố trở thành một trader chuyên nghiệp </h2>
+      <TodoFeature />
     </div>
   );
 }
